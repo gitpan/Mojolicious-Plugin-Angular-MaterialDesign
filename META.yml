@@ -1,0 +1,39 @@
+---
+abstract: 'Mojolicious + https://material.angularjs.org/'
+author:
+  - 'mudler <mudler@dark-lab.net>'
+build_requires:
+  Test::More: '0.98'
+configure_requires:
+  ExtUtils::MakeMaker: '6.64'
+dynamic_config: 0
+generated_by: 'Minilla/v2.2.1, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Mojolicious-Plugin-Angular-MaterialDesign
+no_index:
+  directory:
+    - t
+    - xt
+    - inc
+    - share
+    - eg
+    - examples
+    - author
+    - builder
+provides:
+  Module::Build::MaterialDesign:
+    file: lib/Module/Build/MaterialDesign.pm
+  Mojolicious::Plugin::Angular::MaterialDesign:
+    file: lib/Mojolicious/Plugin/Angular/MaterialDesign.pm
+    version: '0.6'
+requires:
+  perl: '5.008001'
+resources:
+  bugtracker: https://github.com/mudler/Mojolicious-Plugin-Angular-MaterialDesign/issues
+  homepage: https://github.com/mudler/Mojolicious-Plugin-Angular-MaterialDesign
+  repository: git://github.com/mudler/Mojolicious-Plugin-Angular-MaterialDesign.git
+version: '0.6'
+x_authority: cpan:MUDLER
