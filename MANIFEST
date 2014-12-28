@@ -4,8 +4,6 @@ META.json
 Makefile.PL
 README.md
 cpanfile
-inc/Module/Build/MaterialDesign.pm
-lib/Module/Build/MaterialDesign.pm
 lib/Mojolicious/Plugin/Angular/MaterialDesign.pm
 lib/Mojolicious/Plugin/Angular/MaterialDesign/css/angular-material.min.css
 lib/Mojolicious/Plugin/Angular/MaterialDesign/js/angular-material.min.js

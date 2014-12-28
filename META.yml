@@ -26,11 +26,9 @@ no_index:
     - author
     - builder
 provides:
-  Module::Build::MaterialDesign:
-    file: lib/Module/Build/MaterialDesign.pm
   Mojolicious::Plugin::Angular::MaterialDesign:
     file: lib/Mojolicious/Plugin/Angular/MaterialDesign.pm
-    version: '0.601'
+    version: '0.602'
 requires:
   Module::Build: '0.35'
   Mojo::Base: '0'
@@ -39,5 +37,5 @@ resources:
   bugtracker: https://github.com/mudler/Mojolicious-Plugin-Angular-MaterialDesign/issues
   homepage: https://github.com/mudler/Mojolicious-Plugin-Angular-MaterialDesign
   repository: git://github.com/mudler/Mojolicious-Plugin-Angular-MaterialDesign.git
-version: '0.601'
+version: '0.602'
 x_authority: cpan:MUDLER
